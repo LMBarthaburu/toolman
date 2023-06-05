@@ -1,0 +1,13 @@
+.services-card{
+  border-radius: 5px;
+  padding: 25px 30px;
+  transition: .3s ease all;
+}
+.card-img-top{
+  width: 50%;
+  height: 50%;
+  filter: invert(12%) sepia(1%) saturate(0%) hue-rotate(349deg) brightness(97%) contrast(92%)
+}
+.card-body{
+  height: 50%;
+}

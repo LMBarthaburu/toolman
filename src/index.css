@@ -1,0 +1,12 @@
+:root{
+  --negro: #262626;
+  --naranja: #FF570A;
+  --blanco:#f3f3f3;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: var(--blanco);
+  scroll-behavior: smooth;
+}

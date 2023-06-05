@@ -1,0 +1,31 @@
+.navbar{
+  z-index: 100;
+  background-color: var(--blanco);
+}
+.navbar-img{
+  width: 150px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+.nav-link{
+  text-decoration: none;
+  color: var(--negro);
+}
+.nav-link:hover, .nav-link:focus{
+  color: var(--naranja);
+}
+.navbar-toggler:focus-visible, .navbar-toggler:focus{
+  outline: none;
+  box-shadow: none;
+}
+.navbar-toggler-icon{
+  color: var(--naranja);
+}
+/* .active{
+  color: var(--naranja);
+} */
+@media (max-width: 992px){
+  .navbar-img{
+    width: 100px;
+  }
+}

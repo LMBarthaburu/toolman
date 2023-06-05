@@ -1,0 +1,18 @@
+.wtsp-logo{
+  z-index: 10;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 55px;
+  filter: drop-shadow(0 0 4px var(--negro));
+}
+.wtsp-logo:hover{
+  transform: scale(1.05);
+}
+@media (max-width:575px){
+  .wtsp-logo{
+    bottom: 30px;
+    right: 30px;
+    width: 45px;
+  }
+}
