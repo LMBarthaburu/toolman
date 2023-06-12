@@ -3,7 +3,6 @@ import './footer.css'
 import {BsInstagram} from 'react-icons/bs'
 import {ImFacebook2} from 'react-icons/im'
 import ToolmanLogo from '../../assets/img/LogotipoCompleto.jpg'
-import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -14,8 +13,8 @@ function Footer() {
           <img src={ToolmanLogo} alt="Logo Toolman" className='footer-logo'/>
         </div>
         <div >
-          <Link to="https://www.google.com" target='_blank'><BsInstagram className='footer-rrss'/></Link>
-          <Link to="https://www.google.com" target='_blank'><ImFacebook2 className='footer-rrss'/></Link>
+          <a href=" https://www.instagram.com/toolmantuc/ " target='blank'><BsInstagram className='footer-rrss'/></a>
+          <a href=" https://www.facebook.com/toolmantuc " target='blank'><ImFacebook2 className='footer-rrss'/></a>
         </div>
       </div>
     </div>
