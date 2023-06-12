@@ -48,7 +48,7 @@
 @media (max-width:575px){
 	.services{
 		height: auto;
-		padding:0;
+		padding-top:25px;
 	}
 	.services-title{
 		font-size: 42px;

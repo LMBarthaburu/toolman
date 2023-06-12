@@ -1,27 +1,30 @@
-import React from 'react'
-import { Link,NavLink } from 'react-router-dom'
+import React, { useState } from 'react'
 import NavbarLogo from '../../assets/img/LogotipoCompleto.jpg'
 import './navbar.css'
+import {GiBrickWall} from 'react-icons/gi'
+import {BsTools} from 'react-icons/bs'
 
 function Navbar() {
+  const [state, setstate] = useState(true)
   return (
     <>
       <nav className="navbar navbar-expand-lg position-sticky top-0">
         <div className="container-fluid mx-3 align-itmes-center">
-          <Link className="navbar-brand" to="#">
+          <a className="navbar-brand" href="/#">
             <img src={NavbarLogo} alt="Toolman Logotipo" className='navbar-img'/>
-          </Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon">
-            </span>
+          </a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onClick={()=>setstate(!state)}>
+            {
+              state?<GiBrickWall className="navbar-toggler-icon"/>:<BsTools className="navbar-toggler-icon close"/>
+            }
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div className="navbar-nav text-center">
-              <NavLink className="nav-link" to="#">INICIO</NavLink>
-              <NavLink className="nav-link" to="#">NOSOTROS</NavLink>
-              <NavLink className="nav-link" to="#">SERVICIOS</NavLink>
-              <NavLink className="nav-link" to='#'>PROYECTOS</NavLink>
-              <NavLink className="nav-link" to='#'>CONTACTO</NavLink>
+              <a className="nav-link" href="/#">INICIO</a>
+              <a className="nav-link" href="/#about">NOSOTROS</a>
+              <a className="nav-link" href="/#services">SERVICIOS</a>
+              <a className="nav-link" href='/#proyectos'>PROYECTOS</a>
+              <a className="nav-link" href='/#contacto'>CONTACTO</a>
             </div>
           </div>
         </div>

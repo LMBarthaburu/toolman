@@ -9,7 +9,7 @@ function Services() {
 
   return (
     <section className='services' id='services'> 
-      <h1 className='text-center mt-xxl-4 pt-3 pt-xxl-5 services-title'>Nuestros Servicios</h1>
+      <h1 className='text-center services-title pt-4 pt-md-0'>Nuestros Servicios</h1>
       <div className='container'>
         <Splide aria-label="My Favorite Images"   options={ {
             perPage: 3,
@@ -20,7 +20,7 @@ function Services() {
           } }
           >
           {
-            servicios.map(item=><SplideSlide><ServicesCard key={item.id} servicio={item.servicio} detalle={item.detalle} logo={item.logo}/></SplideSlide>)
+            servicios.map(item=><SplideSlide key={item.id}><ServicesCard key={item.id} servicio={item.servicio} detalle={item.detalle} logo={item.logo}/></SplideSlide>)
           }
         </Splide>
       </div>
