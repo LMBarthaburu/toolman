@@ -18,7 +18,8 @@ function About() {
             <div className='col-12 col-lg-7 '>
               <h1 className='about-title'>Somos</h1>
               <img src={ToolmanLogo} alt="" className='w-75 about-logo'/>
-              <h5 className='about-subtitle'>Lorem ipsum dolor sit amet consectetur. Nam malesuada sit cursus lacus dictum tempus leo tellus. Donec hendrerit sit nibh nascetur faucibus commodo turpis viverra. Viverra consequat proin rhoncus turpis lectus senectus viverra. Varius morbi neque eu nunc mus. Diam consequat odio mauris in risus dictumst non. Faucibus leo commodo scelerisque commodo cras nulla. </h5>
+              <p className='about-subtitle fs-5 pe-lg-3'>Nos especializamos en: plomería, gas, electricidad, carpintería, albañilería, pintura, construcción en seco, herrería, yeso e impermeabilización. También en decoración de interiores y exteriores, parquizaciones, mantenimiento de jardines y asesoramiento técnico.
+              Brindamos nuestros servicios a consorcios, administraciones, countries, barrios privados, edificios, galerías comerciales, etc.</p>
               <div data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" onClick={()=>{setLink(!link)}}>
                 {
                     link?<h5 className='about-link-mas'>Conoce más!</h5> : null
@@ -36,10 +37,10 @@ function About() {
           </div>
           <div data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" onClick={()=>{setLink(!link)}}>
             {
-              link? null :<div className='about-link' >
+              link? null :<a className='about-link' href='/#about'>
                 <IoIosArrowUp className='fs-3'/>
                 <h5 className='about-link-menos'>Ver menos</h5>
-                </div>
+                </a>
             }
           </div>
         </div>

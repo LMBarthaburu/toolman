@@ -1,13 +1,23 @@
 .services-card{
+  color: var(--blanco);
   border-radius: 5px;
   padding: 25px 30px;
   transition: .3s ease all;
+  background-color: rgb(38, 38, 38, 0.75);
+  border-radius: 10px;
+  margin: 0 5px;
+  height: 410px;
+}
+.img-box{
+  height: 40%;
+  width: 100%;
+text-align: center;
 }
 .card-img-top{
-  width: 50%;
-  height: 50%;
-  filter: invert(12%) sepia(1%) saturate(0%) hue-rotate(349deg) brightness(97%) contrast(92%)
+  width: 115px;
+  height: auto;
+  filter: invert(99%) sepia(5%) saturate(487%) hue-rotate(227deg) brightness(114%) contrast(91%);
 }
 .card-body{
-  height: 50%;
+  height: 60%;
 }

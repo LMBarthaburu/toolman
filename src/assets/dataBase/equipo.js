@@ -1,25 +1,20 @@
-import img from '../../assets/img/ingeniero.png'
+import Martin from '../../assets/img/martin.png'
+import Gaston from '../../assets/img/gaston.png'
+
 
 export const equipo = [
   {
     id: 1,
-    img: img,
-    nombre: 'Lorem ipsum',
-    profesion: 'Lorem ipsum dolor sit amet consectetur',
-    tarea:'Lorem ipsum dolor sit amet consectetur',
+    img: Gaston,
+    nombre: 'Gastón Saavedra',
+    profesion: 'Ingeniero Civil',
+    tarea:'control y operación de construcciones',
   },
   {
     id: 2,
-    img: img,
-    nombre: 'Lorem ipsum',
-    profesion: 'Lorem ipsum dolor sit amet consectetur',
-    tarea:'Lorem ipsum dolor sit amet consectetur',
-  },
-  {
-    id: 3,
-    img: img,
-    nombre: 'Lorem ipsum',
-    profesion: 'Lorem ipsum dolor sit amet consectetur',
-    tarea:'Lorem ipsum dolor sit amet consectetur',
+    img: Martin,
+    nombre: 'Martín Saavedra',
+    profesion: 'Arquitecto',
+    tarea:'diseño de espacios interiores y exteriores',
   },
 ]

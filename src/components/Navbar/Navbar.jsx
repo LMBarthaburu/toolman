@@ -19,13 +19,13 @@ function Navbar() {
             }
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div className="navbar-nav text-center">
-              <a className="nav-link" href="/#">INICIO</a>
-              <a className="nav-link" href="/#about">NOSOTROS</a>
-              <a className="nav-link" href="/#services">SERVICIOS</a>
-              <a className="nav-link" href='/#proyectos'>PROYECTOS</a>
-              <a className="nav-link" href='/#contacto'>CONTACTO</a>
-            </div>
+            <ul className="navbar-nav text-center fw-bold">
+              <li className='nav-item m-0'><a className="nav-link" href="/#">INICIO</a></li>
+              <li className='nav-item m-0'><a className="nav-link" href="/#about">NOSOTROS</a></li>
+              <li className='nav-item m-0'><a className="nav-link" href="/#services">SERVICIOS</a></li>
+              <li className='nav-item m-0'><a className="nav-link" href='/#proyectos'>PROYECTOS</a></li>
+              <li className='nav-item m-0'><a className="nav-link" href='/#contacto'>CONTACTO</a></li>
+            </ul>
           </div>
         </div>
       </nav>

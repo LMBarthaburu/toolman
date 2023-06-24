@@ -24,7 +24,7 @@ function Contact() {
     <div className='contact-bg' id='contacto'>
       <div className='contact-box container d-lg-flex align-items-center justify-content-center'>
         <div className='contact-text-box col-lg-5'>
-          <h1 className='contact-text-title'>Ponte en contacto con nosotros!</h1>
+          <h1 className='contact-text-title'>Ponete en contacto con nosotros!</h1>
             <a href='https://www.instagram.com/toolmantuc/' target='blank' className='d-flex align-items-center contact-text-rrss'><BsInstagram/><p className='m-0 ps-2'>toolmantuc</p></a>
             <a href='https://www.facebook.com/toolmantuc' target='blank' className='d-flex align-items-center contact-text-rrss'><ImFacebook2/><p className='m-0 ps-2'>toolmantuc</p></a>
         </div>

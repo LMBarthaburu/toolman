@@ -4,8 +4,8 @@ import './wtsp.css'
 
 function Wtsp() {
   return (
-    <div className='container'>
-      <a href='https://api.whatsapp.com/send?phone=0000000000&text=Hola! Quisiera cotizar un proyecto!' target='_blanck'>
+    <div className='container '>
+      <a href='https://api.whatsapp.com/send?phone=3815586413&text=Hola! Quisiera cotizar un proyecto!' target='_blanck'>
         <img src={WtspImg} alt="WTSP logo" className='wtsp-logo' />
       </a>
     </div>
