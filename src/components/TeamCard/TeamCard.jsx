@@ -11,8 +11,8 @@ function TeamCard({img, nombre, profesion, tarea, id}) {
             <img src={img} className="card-img-team col-6" alt="..."/>
             <div className="card-body col-6 px-2">
               <h1 >{nombre}</h1>
-              <h3 >{profesion}</h3>
-              <h4 >{tarea}</h4>
+              <p className='fs-4' >{profesion}</p>
+              <p>{tarea}</p>
             </div>
           </div>
         </div>

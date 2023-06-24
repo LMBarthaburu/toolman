@@ -9,13 +9,13 @@
   width: 100%;
   height: 100%;
   background-color: var(--naranja);
-  opacity: 0.65;
+  opacity: 0.55;
   clip-path: polygon(100% 0, 15% 100%, 100% 100%);
 }
 .about-circulo{
   z-index: 2;
   position: absolute;
-  top: 10%;
+  top: 70px;
   left: 50%;
   right: 50%;
   width: 200px;
@@ -72,7 +72,10 @@
 }
 .about-link{
   width: 100%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: var(--negro);
   font-weight: bolder;

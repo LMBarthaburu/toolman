@@ -20,7 +20,7 @@ function Services() {
           } }
           >
           {
-            servicios.map(item=><SplideSlide key={item.id}><ServicesCard key={item.id} servicio={item.servicio} detalle={item.detalle} logo={item.logo}/></SplideSlide>)
+            servicios.map(item=><SplideSlide key={item.id} className='d-flex align-items-center'><ServicesCard key={item.id} servicio={item.servicio} detalle={item.detalle} logo={item.logo}/></SplideSlide>)
           }
         </Splide>
       </div>

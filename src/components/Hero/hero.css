@@ -28,18 +28,16 @@
   margin: 0;
 }
 .hero-subtitle{
-  font-size: 32px;
   color: var(--naranja);
   font-style: italic;
-  width: 75%;
+  width: 100%;
   margin-bottom: 15px;
 }
 .hero-link{
-  font-style: italic;
   text-decoration: none;
   color: var(--blanco);
   background-color: var(--naranja);
-  padding: 10px 15px;
+  padding: 5px 10px;
   border-radius: 5px;
 }
 .hero-link:hover{

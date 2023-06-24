@@ -13,9 +13,9 @@ function Team() {
       </div>
       <div className='col-12 col-md-6 team-text-box'>
         <h3 className='team-titulo'>QUE HACEMOS?</h3>
-        <h5>Lorem ipsum dolor sit amet consectetur. Nam malesuada sit cursus lacus dictum tempus leo tellus. Donec hendrerit sit nibh nascetur faucibus commodo turpis viverra. Viverra consequat proin rhoncus turpis lectus senectus viverra. Varius morbi neque eu nunc mus. Diam consequat odio mauris in risus dictumst non.</h5>
+        <p>¡Si estas pensando en hacerle renovaciones a tu casa, nosotros te ayudamos! <br />Ofrecemos un servicio integral de reparación y mantenimiento para tu hogar o inmueble, basandonos en los principios de Seguridad, Compromiso, Calidad, Rapides y Garantía!</p>
         <h3 className='team-titulo'>COMO LO HACEMOS?</h3>
-        <h5>Lorem ipsum dolor sit amet consectetur. Nam malesuada sit cursus lacus dictum tempus leo tellus. Donec hendrerit sit nibh nascetur faucibus commodo turpis viverra. Viverra consequat proin rhoncus turpis lectus senectus viverra. Varius morbi neque eu nunc mus. Diam consequat odio mauris in risus dictumst non.</h5>
+        <p>Tenemos todos los servicios disponibles con asesoría ¡SIN COSTO! <br />Ponete en contacto con nostros por wtsp o a traves de nuestro formulario de contacto y dejate acesorar por los mejores!</p>
       </div>
     </div>
     <div className='team-equipo'>
