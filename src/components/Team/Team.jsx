@@ -18,8 +18,8 @@ function Team() {
         <p>Tenemos todos los servicios disponibles con asesoría ¡SIN COSTO! <br />Ponete en contacto con nostros por wtsp o a traves de nuestro formulario de contacto y dejate acesorar por los mejores!</p>
       </div>
     </div>
-    <div className='team-equipo'>
-      <div className='col-12 col-lg-6 d-flex align-items-center justify-content-center'>
+    <div className='team-equipo mt-3'>
+      <div className='col-12 d-flex align-items-center justify-content-center'>
         <h2 className='tean-titulo-equipo'>Nuestro <br /> <span className='team-titulo-equipo naranja'>Equipo!</span></h2>
       </div>
       {
