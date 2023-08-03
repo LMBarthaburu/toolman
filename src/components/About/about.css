@@ -67,8 +67,8 @@
   border-radius: 5px;
 }
 .about-link-mas:hover{
-  color: var(--negro);
-  opacity: 0.9;
+  background-color: var(--blanco);
+  color: var(--naranja);
 }
 .about-link{
   width: 100%;
