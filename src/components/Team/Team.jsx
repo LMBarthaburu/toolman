@@ -13,9 +13,9 @@ function Team() {
       </div>
       <div className='col-12 col-md-6 team-text-box'>
         <h3 className='team-titulo'>QUE HACEMOS?</h3>
-        <p>¡Si estas pensando en hacerle renovaciones a tu casa, nosotros te ayudamos! <br />Ofrecemos un servicio integral de reparación y mantenimiento para tu hogar o inmueble, basandonos en los principios de Seguridad, Compromiso, Calidad, Rapides y Garantía!</p>
+        <p className='fs-5'>Nos especializamos en: plomería, gas, electricidad, carpintería, albañilería, pintura, construcción en seco, herrería, yeso e impermeabilización.</p>
         <h3 className='team-titulo'>COMO LO HACEMOS?</h3>
-        <p>Tenemos todos los servicios disponibles con asesoría ¡SIN COSTO! <br />Ponete en contacto con nostros por wtsp o a traves de nuestro formulario de contacto y dejate acesorar por los mejores!</p>
+        <p className='fs-5'>Tenemos todos los servicios disponibles con asesoría ¡SIN COSTO! Ponete en contacto con nostros por wtsp o a traves de nuestro formulario de contacto y dejate acesorar por los mejores!</p>
       </div>
     </div>
     <div className='team-equipo mt-3'>

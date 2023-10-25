@@ -18,8 +18,7 @@ function About() {
             <div className='col-12 col-lg-7 '>
               <h1 className='about-title'>Somos</h1>
               <img src={ToolmanLogo} alt="" className='w-75 about-logo'/>
-              <p className='about-subtitle fs-5 pe-lg-3'>Nos especializamos en: plomería, gas, electricidad, carpintería, albañilería, pintura, construcción en seco, herrería, yeso e impermeabilización. También en decoración de interiores y exteriores, parquizaciones, mantenimiento de jardines y asesoramiento técnico.
-              Brindamos nuestros servicios a consorcios, administraciones, countries, barrios privados, edificios, galerías comerciales, etc.</p>
+              <p className='about-subtitle fs-5 pe-lg-3'> Ofrecemos una amplia gama de servicios para satisfacer todas tus necesidades en el ámbito de la construcción. Nuestro equipo de arquitectos altamente capacitados está listo para diseñar proyectos innovadores y funcionales que se adapten a tus requerimientos. Desde la concepción del proyecto hasta su finalización, nos encargamos de cada etapa de la construcción, garantizando resultados de alta calidad y cumpliendo con los plazos establecidos. Además, ofrecemos servicios integrales de obra, incluyendo la gestión de permisos, la coordinación de subcontratistas y la supervisión de cada detalle para asegurar un proceso fluido y exitoso. Confía en nosotros para hacer realidad tus proyectos de construcción.</p>
               <div data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" onClick={()=>{setLink(!link)}}>
                 {
                     link?<h5 className='about-link-mas'>Conoce más!</h5> : null

@@ -1,47 +1,26 @@
-import Plomeria from '../../assets/img/wrench-solid.svg'
-import Construccion from '../../assets/img/trowel-bricks-solid.svg'
-import Ampliacion from '../../assets/img/hammer-solid.svg'
-import Remodelacion from '../../assets/img/paint-roller-solid.svg'
-import Generales from '../../assets/img/bolt-solid.svg'
-import Decoracion from '../../assets/img/pen-ruler-solid.svg'
+import Construccion from '../../assets/img/construccion.jpg'
+import Ampliacion from '../../assets/img/obras.png'
+import Remodelacion from '../../assets/img/arquitectura.jpg'
 
 
 
 export const servicios = [
   {
+    id: 2,
+    servicio: 'Servicios integrales de obra',
+    detalle: 'Ofrecemos servicios integrales de obra que incluyen la gestión de permisos, la coordinación de subcontratistas y la supervisión de cada detalle para asegurar un proceso fluido y exitoso. Nos encargamos de cada etapa de la construcción, desde la concepción del proyecto hasta su finalización, garantizando resultados de alta calidad y cumpliendo con los plazos establecidos. Nos enfocamos en trabajar en conjunto contigo para entender tus requerimientos y transformarlos en un diseño único y personalizado. Confía en nosotros para hacer realidad tus proyectos de construcción.',
+    logo: Ampliacion,
+  },
+  {
     id: 4,
     servicio: 'Construcción',
-    detalle: 'Es el arte o técnica de fabricar edificios e infraestructuras. Es todo aquello que exige disponer de un proyecto y una planificación predeterminada. Y para eso estamos nosotros!',
+    detalle: 'Nos encargamos de cada etapa de la construcción, garantizando resultados de alta calidad y cumpliendo con los plazos establecidos. Contamos con un equipo de trabajo altamente capacitado y experimentado que se encarga de la ejecución de la obra, desde la preparación del terreno hasta la entrega final. Nos enfocamos en la calidad de los materiales y la mano de obra para asegurar que el resultado final sea duradero y resistente. Además, nos encargamos de la coordinación de subcontratistas y la supervisión de cada detalle para asegurar un proceso fluido y exitoso.',
     logo: Construccion,
   },
   {
     id: 1,
-    servicio: 'Remodelaciones',
-    detalle: 'Consiste en renovar la apariencia de algunos espacios de la casa, sin implicar hacer cambios estructurales, es decir, se encarga de todos los acabados que pueda tener un inmueble.',
+    servicio: 'Arquitectura',
+    detalle: 'Contamos con un equipo de arquitectos altamente capacitados que se encargan de diseñar proyectos innovadores y funcionales que se adapten a tus necesidades. Nos enfocamos en trabajar en conjunto contigo para entender tus requerimientos y transformarlos en un diseño único y personalizado. Desde la concepción del proyecto hasta su finalización, estamos presentes en cada etapa para garantizar que se cumplan tus expectativas y se logre el resultado deseado. Confía en nosotros para hacer realidad tus proyectos de arquitectura. ',
     logo: Remodelacion,
-  },
-  {
-    id: 2,
-    servicio: 'Ampliaciones',
-    detalle: 'Consiste en añadir una habitación en la construcción ya hecha: puede ser una recámara, un baño, o cualquier espacio que no existía antes y debe construirse.',
-    logo: Ampliacion,
-  },
-  {
-    id: 3,
-    servicio: 'Reparaciones',
-    detalle: 'Ya sea por el uso constante de las instalaciones o el desgaste natural, es importante dar mantenimiento periódicamente, reparar tu casa y prever gastos.',
-    logo: Plomeria,
-  },
-  {
-    id: 5,
-    servicio: 'Generales',
-    detalle: 'Brindamos servicios de plomeria, gas, electricidad, carpinteria, pintura, herreria, impermeabilización y albañileria.',
-    logo: Generales,
-  },
-  {
-    id: 6,
-    servicio: 'Decoración',
-    detalle: 'Servicios de decoracion de interiores y exteriores, parquizaciones y mantenimiento de jardines.',
-    logo: Decoracion,
   },
 ]
