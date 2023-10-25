@@ -52,7 +52,7 @@
 }
 .about-img{
   z-index: 5;
-  height:80vh;
+  height:100vh;
   position: relative;
   object-fit: cover;
   border-radius: 5px;
